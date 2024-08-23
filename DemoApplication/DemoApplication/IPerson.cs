@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DemoApplication
-{
-    public interface IPerson
-    {
-        string FirstName { get; set; }
+namespace DemoApplication;
 
-        string LastName { get; set; }
-    }
+public interface IPerson
+{
+    string FirstName { get; set; }
+
+    string LastName { get; set; }
 }
